@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="IELTS (A to Z)"
+        android:textColor="@color/black"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/text_view_highscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/button_start_quiz"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="2dp"
+        android:text="Highscore: 0"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button_listening"
+        android:layout_width="145dp"
+        android:layout_height="77dp"
+        android:textSize="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="#0372BC"
+        android:text="LISTENING" />
+
+    <Button
+        android:id="@+id/button_speaking"
+        android:layout_width="145dp"
+        android:layout_height="77dp"
+        android:textSize="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="#7E35FF"
+        android:text="speaking" />
+
+    <Button
+        android:id="@+id/button_reading"
+        android:layout_width="145dp"
+        android:layout_height="77dp"
+        android:textSize="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="170dp"
+        android:backgroundTint="#446E01"
+        android:text="READING" />
+
+    <Button
+        android:id="@+id/button_writing"
+        android:layout_width="145dp"
+        android:layout_height="77dp"
+        android:textSize="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="170dp"
+        android:backgroundTint="#CDDC39"
+        android:text="WRITING" />
+
+    <Button
+        android:id="@+id/button_start_quiz"
+        android:layout_width="217dp"
+        android:layout_height="87dp"
+        android:textSize="17dp"
+        android:backgroundTint="#EA0C26"
+        android:layout_centerInParent="true"
+        android:text="Start Quiz" />
+
+    <Button
+        android:id="@+id/button_intro"
+        android:layout_width="145dp"
+        android:layout_height="77dp"
+        android:textSize="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="420dp"
+        android:backgroundTint="#FF9800"
+        android:text="Intro" />
+
+    <Button
+        android:id="@+id/button_grammar"
+        android:layout_width="145dp"
+        android:layout_height="77dp"
+        android:textSize="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="420dp"
+        android:backgroundTint="#068176"
+        android:text="Grammar" />
+
+    <Button
+        android:id="@+id/button_pre"
+        android:layout_width="145dp"
+        android:layout_height="77dp"
+        android:textSize="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="520dp"
+        android:backgroundTint="#00BCD4"
+        android:text="Preparation" />
+
+    <Button
+        android:id="@+id/button_Vocabulary"
+        android:layout_width="145dp"
+        android:layout_height="77dp"
+        android:textSize="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="520dp"
+        android:backgroundTint="#E91E63"
+        android:text="Vocabulary" />
+
+
+
+
+
+</RelativeLayout>

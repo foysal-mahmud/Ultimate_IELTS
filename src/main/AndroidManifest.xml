@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mc.ultimate_ielts_quiz">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Ultimate_IELTS_QUIZ">
+        <activity
+            android:name=".VocabularyActivity"
+            android:label="@string/title_activity_vocabulary"
+            android:theme="@style/Theme.Ultimate_IELTS_QUIZ.NoActionBar"></activity>
+        <activity
+            android:name=".PreparationActivity"
+            android:label="@string/title_activity_preparation"
+            android:theme="@style/Theme.Ultimate_IELTS_QUIZ.NoActionBar" />
+        <activity
+            android:name=".GrammarActivity"
+            android:label="@string/title_activity_grammar"
+            android:theme="@style/Theme.Ultimate_IELTS_QUIZ.NoActionBar" />
+        <activity
+            android:name=".IntroActivity"
+            android:label="@string/title_activity_intro"
+            android:theme="@style/Theme.Ultimate_IELTS_QUIZ.NoActionBar" />
+        <activity
+            android:name=".WritingActivity"
+            android:label="@string/title_activity_writing"
+            android:theme="@style/Theme.Ultimate_IELTS_QUIZ.NoActionBar" />
+        <activity
+            android:name=".ReadingActivity"
+            android:label="@string/title_activity_reading"
+            android:theme="@style/Theme.Ultimate_IELTS_QUIZ.NoActionBar" />
+        <activity
+            android:name=".SpeakingActivity"
+            android:label="@string/title_activity_speaking"
+            android:theme="@style/Theme.Ultimate_IELTS_QUIZ.NoActionBar" />
+        <activity
+            android:name=".ListeningActivity"
+            android:label="@string/title_activity_listening"
+            android:theme="@style/Theme.Ultimate_IELTS_QUIZ.NoActionBar" />
+        <activity android:name=".QuizActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
